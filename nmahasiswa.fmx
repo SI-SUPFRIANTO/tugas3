@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 332
+  ClientWidth = 306
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TLabel
+    Position.X = 104.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'NILAI MAHSISWA'
+    TabOrder = 0
+  end
+  object Tnilangka: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 48.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 2
+    Text = 'PERIKSA'
+    OnClick = Button1Click
+  end
+  object Thsl: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 48.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 248.000000000000000000
+    Text = 'Nama : Supfrianto'
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 272.000000000000000000
+    Text = 'Nim : 160250501050'
+    TabOrder = 5
+  end
+  object Label3: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 296.000000000000000000
+    Text = 'Sistem Informasi'
+    TabOrder = 4
+  end
+end
